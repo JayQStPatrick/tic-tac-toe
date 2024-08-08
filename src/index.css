@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+align-items: center;
+width: 50%;
+border: 2px solid transparent;
+}
+
+#players.highlight-player li.active {
+    border-color: #f6e35a;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+#players.highlight-player li.active .player-name,
+#players.highlight-player li.active .player-symbol {
+    border-color: #f6e35a;
+}
+#players button {
+    width: 3rem;
+    border: none;
+    background: none:
+    color: #c3ba78;
+}
